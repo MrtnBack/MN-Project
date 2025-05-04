@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <p>
+        <img src="nobgmnlogo.png" alt="nobgmnlogo" id="nobgmnlogo">
+    </p>
+
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="index.html">Kezdőlap</a></li>
+        <li><a href="esemenyek.html">Események</a></li>
+        <li><a href="helyszinek.html">Helyszínek</a></li>
+        <li><a href="jegyek.html">Jegyek</a></li>
+        <li><a href="rolunk.html">Rólunk</a></li>
+        <li><a href="dolgozzvelunk.html" class="active">Dolgozz velünk</a></li>
+      </ul>
+  </nav>
+
+    <header class="header">
+        <h1>Dolgozz velünk</h1>
+        <p>Csatlakozz egy fiatalos, pörgős csapathoz és vegyél részt a legjobb események szervezésében!</p>
+      </header>
+    
+      <section class="allasok">
+        <h2>Nyitott pozíciók</h2>
+        <form>
+          <p>Kérlek, válassz egy pozíciót:</p>
+          <div class="allas-valaszto">
+      
+            <input type="radio" id="hostess" name="allas" value="Hostess / Promóter">
+            <label for="hostess" class="allas-opcio">
+              <strong>Hostess / Promóter</strong> – Budapest, részmunkaidő
+            </label>
+      
+            <input type="radio" id="technikus" name="allas" value="Technikus">
+            <label for="technikus" class="allas-opcio">
+              <strong>Technikus</strong> – Kecskemét, teljes munkaidő
+            </label>
+      
+            <input type="radio" id="gyakornok" name="allas" value="Marketing gyakornok">
+            <label for="gyakornok" class="allas-opcio">
+              <strong>Marketing gyakornok</strong> – Online, rugalmas időbeosztás
+            </label>
+      
+          </div>
+      
+          <br>
+          <button type="submit">Jelentkezem</button>
+        </form>
+      </section>
+    
+      <section class="jelentkezes">
+        <h2>Jelentkezz most</h2>
+        <form action="mailto:info@rendezveny.hu" method="post" enctype="text/plain">
+          <input type="text" name="name" placeholder="Teljes név" required />
+          <input type="email" name="email" placeholder="Email cím" required />
+          <textarea name="message" placeholder="Írj magadról pár mondatot..." rows="5" required></textarea>
+          <button type="submit">Jelentkezem</button>
+        </form>
+      </section>
+      
+</body>
+</html>
